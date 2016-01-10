@@ -498,6 +498,7 @@
 				36B922C11C42267D003678BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36B922C21C42267D003678BB /* Build configuration list for PBXNativeTarget "ios_retry_listTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +507,7 @@
 				36B922C41C42267D003678BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		36B922C51C42267D003678BB /* Build configuration list for PBXNativeTarget "ios_retry_listUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +516,7 @@
 				36B922C71C42267D003678BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
