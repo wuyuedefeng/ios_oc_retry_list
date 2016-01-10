@@ -18,6 +18,8 @@
 		36B922CB1C4228CE003678BB /* company.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 36B922C91C4228CE003678BB /* company.xcdatamodeld */; };
 		36B922D01C4230B7003678BB /* Employee+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B922CD1C4230B7003678BB /* Employee+CoreDataProperties.m */; };
 		36B922D11C4230B7003678BB /* Employee.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B922CF1C4230B7003678BB /* Employee.m */; };
+		36B922D71C427E99003678BB /* CompanyCoreDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B922D61C427E99003678BB /* CompanyCoreDataTool.m */; };
+		36B922D91C427ECE003678BB /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 36B922D81C427ECE003678BB /* CoreData.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +61,9 @@
 		36B922CD1C4230B7003678BB /* Employee+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Employee+CoreDataProperties.m"; sourceTree = "<group>"; };
 		36B922CE1C4230B7003678BB /* Employee.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Employee.h; sourceTree = "<group>"; };
 		36B922CF1C4230B7003678BB /* Employee.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Employee.m; sourceTree = "<group>"; };
+		36B922D51C427E99003678BB /* CompanyCoreDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompanyCoreDataTool.h; sourceTree = "<group>"; };
+		36B922D61C427E99003678BB /* CompanyCoreDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompanyCoreDataTool.m; sourceTree = "<group>"; };
+		36B922D81C427ECE003678BB /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +71,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				36B922D91C427ECE003678BB /* CoreData.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -89,6 +95,7 @@
 		36B922891C42267D003678BB = {
 			isa = PBXGroup;
 			children = (
+				36B922D81C427ECE003678BB /* CoreData.framework */,
 				36B922941C42267D003678BB /* ios_retry_list */,
 				36B922AE1C42267D003678BB /* ios_retry_listTests */,
 				36B922B91C42267D003678BB /* ios_retry_listUITests */,
@@ -157,6 +164,8 @@
 				36B922CC1C4230B7003678BB /* Employee+CoreDataProperties.h */,
 				36B922CE1C4230B7003678BB /* Employee.h */,
 				36B922CF1C4230B7003678BB /* Employee.m */,
+				36B922D51C427E99003678BB /* CompanyCoreDataTool.h */,
+				36B922D61C427E99003678BB /* CompanyCoreDataTool.m */,
 			);
 			name = core_data;
 			sourceTree = "<group>";
@@ -295,6 +304,7 @@
 				36B9229A1C42267D003678BB /* AppDelegate.m in Sources */,
 				36B922971C42267D003678BB /* main.m in Sources */,
 				36B922D11C4230B7003678BB /* Employee.m in Sources */,
+				36B922D71C427E99003678BB /* CompanyCoreDataTool.m in Sources */,
 				36B922CB1C4228CE003678BB /* company.xcdatamodeld in Sources */,
 				36B922D01C4230B7003678BB /* Employee+CoreDataProperties.m in Sources */,
 			);
@@ -438,6 +448,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ios_retry_list/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WS.ios-retry-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -449,6 +460,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ios_retry_list/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WS.ios-retry-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
