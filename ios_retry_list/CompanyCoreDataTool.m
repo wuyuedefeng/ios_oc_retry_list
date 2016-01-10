@@ -23,11 +23,10 @@
 
 
 -(void)setupContext{
-    NSLog(@"12345");
     
     _context = [[NSManagedObjectContext alloc] initWithConcurrencyType:NSMainQueueConcurrencyType];
     
-    // 模型文件
+    // 模型文件  该方法会将所有coredata model放到一个数据库中
     NSManagedObjectModel *model = [NSManagedObjectModel mergedModelFromBundles:nil];
     
     // 持久化存储调度器
@@ -43,4 +42,6 @@
     
     _context.persistentStoreCoordinator = store;
 }
+
+
 @end

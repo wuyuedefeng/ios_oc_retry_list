@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		360DA8841C428A7F0032A47E /* Wechat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 360DA8821C428A7F0032A47E /* Wechat.xcdatamodeld */; };
+		360DA8871C428A8E0032A47E /* Weibo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 360DA8851C428A8E0032A47E /* Weibo.xcdatamodeld */; };
+		360DA88C1C428ADC0032A47E /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA8891C428ADC0032A47E /* User+CoreDataProperties.m */; };
+		360DA88D1C428ADC0032A47E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA88B1C428ADC0032A47E /* User.m */; };
+		360DA8901C428B030032A47E /* WechatWeiboCoreDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA88F1C428B030032A47E /* WechatWeiboCoreDataTool.m */; };
 		36B922971C42267D003678BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B922961C42267D003678BB /* main.m */; };
 		36B9229A1C42267D003678BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B922991C42267D003678BB /* AppDelegate.m */; };
 		36B9229D1C42267D003678BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B9229C1C42267D003678BB /* ViewController.m */; };
@@ -40,6 +45,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		360DA8831C428A7F0032A47E /* Wechat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Wechat.xcdatamodel; sourceTree = "<group>"; };
+		360DA8861C428A8E0032A47E /* Weibo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Weibo.xcdatamodel; sourceTree = "<group>"; };
+		360DA8881C428ADC0032A47E /* User+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "User+CoreDataProperties.h"; sourceTree = "<group>"; };
+		360DA8891C428ADC0032A47E /* User+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "User+CoreDataProperties.m"; sourceTree = "<group>"; };
+		360DA88A1C428ADC0032A47E /* User.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = User.h; sourceTree = "<group>"; };
+		360DA88B1C428ADC0032A47E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
+		360DA88E1C428B030032A47E /* WechatWeiboCoreDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatWeiboCoreDataTool.h; sourceTree = "<group>"; };
+		360DA88F1C428B030032A47E /* WechatWeiboCoreDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatWeiboCoreDataTool.m; sourceTree = "<group>"; };
 		36B922921C42267D003678BB /* ios_retry_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_retry_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B922961C42267D003678BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36B922981C42267D003678BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -92,6 +105,35 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		360DA8801C4289020032A47E /* only_one_database */ = {
+			isa = PBXGroup;
+			children = (
+				36B922C91C4228CE003678BB /* company.xcdatamodeld */,
+				36B922CD1C4230B7003678BB /* Employee+CoreDataProperties.m */,
+				36B922CC1C4230B7003678BB /* Employee+CoreDataProperties.h */,
+				36B922CE1C4230B7003678BB /* Employee.h */,
+				36B922CF1C4230B7003678BB /* Employee.m */,
+				36B922D51C427E99003678BB /* CompanyCoreDataTool.h */,
+				36B922D61C427E99003678BB /* CompanyCoreDataTool.m */,
+			);
+			name = only_one_database;
+			sourceTree = "<group>";
+		};
+		360DA8811C4289420032A47E /* mutiple_database */ = {
+			isa = PBXGroup;
+			children = (
+				360DA8821C428A7F0032A47E /* Wechat.xcdatamodeld */,
+				360DA8881C428ADC0032A47E /* User+CoreDataProperties.h */,
+				360DA8891C428ADC0032A47E /* User+CoreDataProperties.m */,
+				360DA88A1C428ADC0032A47E /* User.h */,
+				360DA88B1C428ADC0032A47E /* User.m */,
+				360DA8851C428A8E0032A47E /* Weibo.xcdatamodeld */,
+				360DA88E1C428B030032A47E /* WechatWeiboCoreDataTool.h */,
+				360DA88F1C428B030032A47E /* WechatWeiboCoreDataTool.m */,
+			);
+			name = mutiple_database;
+			sourceTree = "<group>";
+		};
 		36B922891C42267D003678BB = {
 			isa = PBXGroup;
 			children = (
@@ -159,13 +201,8 @@
 		36B922C81C42289D003678BB /* core_data */ = {
 			isa = PBXGroup;
 			children = (
-				36B922C91C4228CE003678BB /* company.xcdatamodeld */,
-				36B922CD1C4230B7003678BB /* Employee+CoreDataProperties.m */,
-				36B922CC1C4230B7003678BB /* Employee+CoreDataProperties.h */,
-				36B922CE1C4230B7003678BB /* Employee.h */,
-				36B922CF1C4230B7003678BB /* Employee.m */,
-				36B922D51C427E99003678BB /* CompanyCoreDataTool.h */,
-				36B922D61C427E99003678BB /* CompanyCoreDataTool.m */,
+				360DA8811C4289420032A47E /* mutiple_database */,
+				360DA8801C4289020032A47E /* only_one_database */,
 			);
 			name = core_data;
 			sourceTree = "<group>";
@@ -300,13 +337,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				360DA8901C428B030032A47E /* WechatWeiboCoreDataTool.m in Sources */,
+				360DA88C1C428ADC0032A47E /* User+CoreDataProperties.m in Sources */,
 				36B9229D1C42267D003678BB /* ViewController.m in Sources */,
 				36B9229A1C42267D003678BB /* AppDelegate.m in Sources */,
+				360DA8871C428A8E0032A47E /* Weibo.xcdatamodeld in Sources */,
 				36B922971C42267D003678BB /* main.m in Sources */,
 				36B922D11C4230B7003678BB /* Employee.m in Sources */,
+				360DA88D1C428ADC0032A47E /* User.m in Sources */,
 				36B922D71C427E99003678BB /* CompanyCoreDataTool.m in Sources */,
 				36B922CB1C4228CE003678BB /* company.xcdatamodeld in Sources */,
 				36B922D01C4230B7003678BB /* Employee+CoreDataProperties.m in Sources */,
+				360DA8841C428A7F0032A47E /* Wechat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -448,7 +490,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ios_retry_list/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WS.ios-retry-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -460,7 +502,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ios_retry_list/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "WS.ios-retry-list";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -557,6 +599,26 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
+		360DA8821C428A7F0032A47E /* Wechat.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				360DA8831C428A7F0032A47E /* Wechat.xcdatamodel */,
+			);
+			currentVersion = 360DA8831C428A7F0032A47E /* Wechat.xcdatamodel */;
+			path = Wechat.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		360DA8851C428A8E0032A47E /* Weibo.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				360DA8861C428A8E0032A47E /* Weibo.xcdatamodel */,
+			);
+			currentVersion = 360DA8861C428A8E0032A47E /* Weibo.xcdatamodel */;
+			path = Weibo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
 		36B922C91C4228CE003678BB /* company.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (

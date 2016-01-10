@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CompanyCoreDataTool.h"
+#import "WechatWeiboCoreDataTool.h"
 @interface ViewController ()
 
 @end
@@ -17,7 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
-    [CompanyCoreDataTool testCompanyCoreData];
+//    [CompanyCoreDataTool testCompanyCoreData];
+    [WechatWeiboCoreDataTool testCompanyCoreData];
     
 }
 
