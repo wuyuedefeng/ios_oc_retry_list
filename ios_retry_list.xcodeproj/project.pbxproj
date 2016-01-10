@@ -12,6 +12,12 @@
 		360DA88C1C428ADC0032A47E /* User+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA8891C428ADC0032A47E /* User+CoreDataProperties.m */; };
 		360DA88D1C428ADC0032A47E /* User.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA88B1C428ADC0032A47E /* User.m */; };
 		360DA8901C428B030032A47E /* WechatWeiboCoreDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA88F1C428B030032A47E /* WechatWeiboCoreDataTool.m */; };
+		360DA8941C428F4A0032A47E /* school.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 360DA8921C428F4A0032A47E /* school.xcdatamodeld */; };
+		360DA89D1C4290070032A47E /* Teacher+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA8961C4290070032A47E /* Teacher+CoreDataProperties.m */; };
+		360DA89E1C4290070032A47E /* Teacher.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA8981C4290070032A47E /* Teacher.m */; };
+		360DA89F1C4290070032A47E /* Student+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA89A1C4290070032A47E /* Student+CoreDataProperties.m */; };
+		360DA8A01C4290070032A47E /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA89C1C4290070032A47E /* Student.m */; };
+		360DA8A31C4290430032A47E /* SchoolCoreDataTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 360DA8A21C4290430032A47E /* SchoolCoreDataTool.m */; };
 		36B922971C42267D003678BB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B922961C42267D003678BB /* main.m */; };
 		36B9229A1C42267D003678BB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B922991C42267D003678BB /* AppDelegate.m */; };
 		36B9229D1C42267D003678BB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 36B9229C1C42267D003678BB /* ViewController.m */; };
@@ -53,6 +59,17 @@
 		360DA88B1C428ADC0032A47E /* User.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = User.m; sourceTree = "<group>"; };
 		360DA88E1C428B030032A47E /* WechatWeiboCoreDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WechatWeiboCoreDataTool.h; sourceTree = "<group>"; };
 		360DA88F1C428B030032A47E /* WechatWeiboCoreDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WechatWeiboCoreDataTool.m; sourceTree = "<group>"; };
+		360DA8931C428F4A0032A47E /* school.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = school.xcdatamodel; sourceTree = "<group>"; };
+		360DA8951C4290070032A47E /* Teacher+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Teacher+CoreDataProperties.h"; sourceTree = "<group>"; };
+		360DA8961C4290070032A47E /* Teacher+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Teacher+CoreDataProperties.m"; sourceTree = "<group>"; };
+		360DA8971C4290070032A47E /* Teacher.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Teacher.h; sourceTree = "<group>"; };
+		360DA8981C4290070032A47E /* Teacher.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Teacher.m; sourceTree = "<group>"; };
+		360DA8991C4290070032A47E /* Student+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "Student+CoreDataProperties.h"; sourceTree = "<group>"; };
+		360DA89A1C4290070032A47E /* Student+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Student+CoreDataProperties.m"; sourceTree = "<group>"; };
+		360DA89B1C4290070032A47E /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		360DA89C1C4290070032A47E /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		360DA8A11C4290430032A47E /* SchoolCoreDataTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SchoolCoreDataTool.h; sourceTree = "<group>"; };
+		360DA8A21C4290430032A47E /* SchoolCoreDataTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SchoolCoreDataTool.m; sourceTree = "<group>"; };
 		36B922921C42267D003678BB /* ios_retry_list.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ios_retry_list.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36B922961C42267D003678BB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		36B922981C42267D003678BB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -134,6 +151,24 @@
 			name = mutiple_database;
 			sourceTree = "<group>";
 		};
+		360DA8911C428EFD0032A47E /* database_table_relation */ = {
+			isa = PBXGroup;
+			children = (
+				360DA8921C428F4A0032A47E /* school.xcdatamodeld */,
+				360DA8951C4290070032A47E /* Teacher+CoreDataProperties.h */,
+				360DA8961C4290070032A47E /* Teacher+CoreDataProperties.m */,
+				360DA8971C4290070032A47E /* Teacher.h */,
+				360DA8981C4290070032A47E /* Teacher.m */,
+				360DA8991C4290070032A47E /* Student+CoreDataProperties.h */,
+				360DA89A1C4290070032A47E /* Student+CoreDataProperties.m */,
+				360DA89B1C4290070032A47E /* Student.h */,
+				360DA89C1C4290070032A47E /* Student.m */,
+				360DA8A11C4290430032A47E /* SchoolCoreDataTool.h */,
+				360DA8A21C4290430032A47E /* SchoolCoreDataTool.m */,
+			);
+			name = database_table_relation;
+			sourceTree = "<group>";
+		};
 		36B922891C42267D003678BB = {
 			isa = PBXGroup;
 			children = (
@@ -201,6 +236,7 @@
 		36B922C81C42289D003678BB /* core_data */ = {
 			isa = PBXGroup;
 			children = (
+				360DA8911C428EFD0032A47E /* database_table_relation */,
 				360DA8811C4289420032A47E /* mutiple_database */,
 				360DA8801C4289020032A47E /* only_one_database */,
 			);
@@ -339,15 +375,21 @@
 			files = (
 				360DA8901C428B030032A47E /* WechatWeiboCoreDataTool.m in Sources */,
 				360DA88C1C428ADC0032A47E /* User+CoreDataProperties.m in Sources */,
+				360DA8A01C4290070032A47E /* Student.m in Sources */,
 				36B9229D1C42267D003678BB /* ViewController.m in Sources */,
+				360DA8A31C4290430032A47E /* SchoolCoreDataTool.m in Sources */,
+				360DA89E1C4290070032A47E /* Teacher.m in Sources */,
 				36B9229A1C42267D003678BB /* AppDelegate.m in Sources */,
 				360DA8871C428A8E0032A47E /* Weibo.xcdatamodeld in Sources */,
 				36B922971C42267D003678BB /* main.m in Sources */,
+				360DA89D1C4290070032A47E /* Teacher+CoreDataProperties.m in Sources */,
 				36B922D11C4230B7003678BB /* Employee.m in Sources */,
+				360DA89F1C4290070032A47E /* Student+CoreDataProperties.m in Sources */,
 				360DA88D1C428ADC0032A47E /* User.m in Sources */,
 				36B922D71C427E99003678BB /* CompanyCoreDataTool.m in Sources */,
 				36B922CB1C4228CE003678BB /* company.xcdatamodeld in Sources */,
 				36B922D01C4230B7003678BB /* Employee+CoreDataProperties.m in Sources */,
+				360DA8941C428F4A0032A47E /* school.xcdatamodeld in Sources */,
 				360DA8841C428A7F0032A47E /* Wechat.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -616,6 +658,16 @@
 			);
 			currentVersion = 360DA8861C428A8E0032A47E /* Weibo.xcdatamodel */;
 			path = Weibo.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+		360DA8921C428F4A0032A47E /* school.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				360DA8931C428F4A0032A47E /* school.xcdatamodel */,
+			);
+			currentVersion = 360DA8931C428F4A0032A47E /* school.xcdatamodel */;
+			path = school.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
